@@ -1,0 +1,457 @@
+/* import styling from Google Fonts -> Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Styling for all*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+section {
+  position: relative;
+  padding: 50px;
+}
+
+body {
+  background-color: #ecfee8;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Styling for navlinks */
+
+/* Desktop nav styling */
+
+#nav-links-desktop {
+  display: flex;
+  justify-content: space-between;
+  height: 30vh;
+}
+.div-container {
+  width: 100px;
+  height: 100px;
+}
+.nav-container {
+  display: flex;
+}
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  gap: 3rem;
+  padding: 30px;
+  font-size: 20px;
+}
+.nav-links a {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+.nav-links a:hover {
+  text-decoration: underline;
+  text-decoration-color: salmon;
+}
+.logo {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.logo:hover {
+  cursor: default;
+}
+
+/* Mobile nav styling */
+#mobile-container {
+  width: 20vw;
+}
+#mobile-container a {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+}
+
+#mobile-container span {
+  width: 20vw;
+  padding: 1rem;
+  flex-direction: column;
+  padding: 10px;
+}
+#mobile-container hr {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: black;
+  width: 10vw;
+}
+#xMark {
+  /* position: absolute;
+  top: 0; */
+  padding-top: 10px;
+  color: red;
+  font-weight: bold;
+  font-size: 21px;
+  outline: none;
+  display: none;
+}
+
+/* Home Page styling */
+
+#home {
+  position: relative;
+  padding: 50px;
+}
+
+.home-section-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.profile-img {
+  width: 25vw;
+  height: 50vh;
+  border-radius: 2rem;
+  box-shadow: 1px 5px 25px 1px white;
+}
+.profile-img:hover {
+  box-shadow: 1px 5px 25px 1px black;
+  transition: box-shadow 1ms ease-in-out;
+}
+.text_p1 {
+  font-size: 2.5rem;
+}
+.text_h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  color: salmon;
+}
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  flex-direction: column;
+}
+.btn {
+  font-size: 15px;
+  border: black 0.1rem solid;
+  padding: 20px;
+  border-radius: 5rem;
+  color: salmon;
+  background-color: white;
+  font-weight: 700;
+}
+.btn:hover {
+  color: white;
+  background-color: black;
+  transition: background-color 0.5s ease-in-out;
+  cursor: pointer;
+}
+.arrow {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  bottom: 0;
+  left: 50vw;
+  right: 50vw;
+}
+.arrow:hover {
+  cursor: pointer;
+}
+
+/* About section styling */
+
+#about {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-p {
+  width: 50vw;
+  height: 50vh;
+  line-height: 28px;
+  padding: 10px;
+  font-size: 20px;
+  word-spacing: 5px;
+}
+
+.education-container {
+  border: solid 1px white;
+  border-radius: 2rem;
+  color: white;
+  background-color: black;
+  width: 30%;
+  height: 30%;
+  padding: 30px;
+}
+.education {
+  display: flex;
+  list-style-type: none;
+  flex-direction: column;
+}
+
+.education-container h2 {
+  text-align: center;
+  color: salmon;
+}
+
+.education li {
+  border: white 2px solid;
+  border-radius: 2rem;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+}
+.about-next {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+/* Experience Section styling */
+
+.frontend,
+.backend,
+.apis {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 2rem;
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  list-style-type: none;
+}
+
+.skills {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  padding: 40px;
+  margin: 10px;
+  position: relative;
+  border-radius: 2rem;
+  gap: 3rem;
+}
+
+.description {
+  position: absolute;
+  top: 0;
+  color: black;
+  text-decoration: underline dotted black;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+}
+
+.skills h3:hover {
+  text-decoration: green dotted underline;
+  transition: 0.3s text-decoration ease-in-out;
+}
+.list li {
+  list-style-type: none;
+  font-weight: 500;
+  padding: 10px;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.checked {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.center {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+}
+.introexp {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.skills > div:hover {
+  background-color: white;
+  color: black;
+  transition: 1s ease-out background-color;
+}
+
+/* Projects section styling */
+#projects {
+  position: relative;
+}
+.introprojects {
+  padding-bottom: 30px;
+}
+.proj-img {
+  width: 300px;
+  height: 300px;
+  border-radius: 40px;
+  border: 1px solid gray;
+  box-shadow: 1px 5px 25px 1px white;
+}
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  border: 3px solid #495428;
+  border-radius: 2rem;
+  background-color: rgba(120, 134, 107, 0.8);
+}
+.project-containers {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.project:hover {
+  background-color: black;
+  color: white;
+  transition: 0.5s ease-in-out background-color;
+  cursor: pointer;
+  border: 3px solid white;
+}
+.project h1 {
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.btn1 {
+  background-color: white;
+  color: black;
+  border-radius: 2rem;
+  padding: 15px;
+}
+.btn1:hover {
+  background-color: gray;
+  color: black;
+  transition: 0.3s ease-in background-color;
+  cursor: pointer;
+}
+
+.introproj {
+  padding: 30px;
+  text-decoration: underline dotted black;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 3px;
+}
+.buttons-container {
+  padding-top: 15px;
+}
+
+/* Contact section styling */
+
+.contactlist li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-items li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.contactlist {
+  border: 5px solid white;
+  border-radius: 2rem;
+  background-color: black;
+  margin-top: 15px;
+  height: fit-content;
+  color: white;
+  font-size: 18px;
+}
+.contact-items {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3%;
+}
+.introcontact {
+  padding: 60px 0px 60px 0px;
+}
+
+/* footer styling */
+
+.nav-footer-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  gap: 2rem;
+}
+.nav-footer-links a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer1 a:hover {
+  text-decoration: underline;
+  text-decoration-color: salmon;
+  text-underline-offset: 0.3rem;
+  column-gap: 2rem;
+}
+
+.icon1 {
+  background-color: salmon;
+  border: 3px solid black;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  gap: 2rem;
+  cursor: pointer;
+}
+.icon1:hover {
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 60%;
+  transition: background-color 0.3s ease-in-out;
+}
+.footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 50px;
+}

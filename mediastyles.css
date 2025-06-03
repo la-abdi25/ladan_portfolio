@@ -1,0 +1,219 @@
+/* media queries */
+
+/* desktop screen size */
+@media (min-width: 1025px) {
+  #mobile-container {
+    display: none;
+  }
+}
+/* tablet screen size */
+@media (max-width: 1024px) {
+  .arrow {
+    display: none;
+  }
+  .nav-links {
+    display: none;
+  }
+  #nav-links-dekstop {
+    height: 40vh;
+  }
+  #home {
+    padding: 10px;
+  }
+  .home-section-container {
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .profile-container img {
+    width: 30vw;
+    height: 40vh;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #about {
+    flex-direction: column;
+  }
+  .about-container p {
+    width: 60vw;
+    height: 30%;
+    display: block;
+    padding-bottom: 20px;
+    font-size: 20px;
+  }
+  .education-container {
+    width: unset;
+  }
+  .skills {
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+  #experience {
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .description {
+    position: unset;
+  }
+  #projects {
+    flex-wrap: wrap;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .frontend,
+  .backend,
+  .apis {
+    background-color: white;
+    color: black;
+  }
+  .about-next {
+    display: flex;
+    justify-content: center;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+  }
+  .text_h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .text_p1 {
+    font-size: 30px;
+  }
+  .project-containers {
+    gap: 2rem;
+    padding: 10px;
+  }
+  #contact {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-footer-links {
+    flex-direction: column;
+  }
+  footer > div {
+    text-align: center;
+  }
+  #contact li {
+    font-size: 15px;
+  }
+}
+
+/* mobile screen size */
+@media (max-width: 480px) {
+  .nav-links {
+    display: none;
+  }
+  .arrow {
+    display: none;
+  }
+  .home-section-container {
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  .profile-container img {
+    width: 70vw;
+    height: 50vh;
+  }
+  .intro {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  #about {
+    flex-direction: column;
+  }
+  .about-container {
+    justify-content: center;
+  }
+  .about-container p {
+    width: 100vw;
+    height: 10%;
+    display: block;
+    padding-bottom: 20px;
+    font-size: 17px;
+  }
+  .education-container {
+    width: unset;
+    padding-top: 10%;
+  }
+  .skills {
+    gap: 3rem;
+    flex-wrap: wrap;
+  }
+  #experience {
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-size: 13px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .description {
+    position: unset;
+  }
+  #projects {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .frontend,
+  .backend,
+  .apis {
+    background-color: white;
+    color: black;
+  }
+  .about-next {
+    display: flex;
+    justify-content: center;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+  }
+  .text_h1 {
+    font-size: 35px;
+    text-align: center;
+  }
+  .text_p1 {
+    font-size: 30px;
+  }
+  .project-containers {
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 10px;
+  }
+  #contact {
+    flex-direction: column;
+    text-align: center;
+  }
+  .nav-footer-links {
+    flex-direction: column;
+  }
+  footer > div {
+    text-align: center;
+  }
+  #contact li {
+    font-size: 10px;
+  }
+  .icon1 {
+    height: 40px;
+    width: 40px;
+  }
+}
