@@ -74,7 +74,8 @@
   }
   .frontend,
   .backend,
-  .apis {
+  .apis,
+  .databases {
     background-color: white;
     color: black;
   }
@@ -175,7 +176,8 @@
   }
   .frontend,
   .backend,
-  .apis {
+  .apis,
+  .databases {
     background-color: white;
     color: black;
   }

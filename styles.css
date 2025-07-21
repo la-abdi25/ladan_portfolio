@@ -227,7 +227,8 @@ html {
 
 .frontend,
 .backend,
-.apis {
+.apis,
+.databases {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
