@@ -31,3 +31,5 @@
   <li>Open the index.html file, run the file in the browser of your choice</li>
 </ol>
 
+<h2>License</h2>
+<p>This project is licensed under the <a href="LICENSE">MIT License</a>.</p>
