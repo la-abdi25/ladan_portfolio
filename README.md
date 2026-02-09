@@ -1,14 +1,14 @@
 # My Portfolio
 <h2>Description</h2>
-<h4>A clean and responsive personal portfolio website constructed using HTML, CSS, and JavaScript</h4>
-<h4>Designed to showcase my projects, skills, and experience</h4>
+<p>A clean and responsive personal portfolio website constructed using HTML, CSS, and JavaScript</p>
+<p>Designed to showcase my projects, skills, and experience</p>
 
 <h2>Features</h2>
 <p>Fully responsive design(mobile, tablet, desktop) using media queries</p>
-<h4>Hamburger Menu with incorporated JavaScript event handling</h4>
-<h4>Home, About, Experience, Projects, and Contact sections</h4>
-<h4>Maintainable codebase with comments</h4>
-<h4>Google Fonts for Typography</h4>
+<p>Hamburger Menu with incorporated JavaScript event handling</p>
+<p>Home, About, Experience, Projects, and Contact sections</p>
+<p>Maintainable codebase with comments</p>
+<p>Google Fonts for Typography</p>
 
 <h2>Live Portfolio</h2>
 <p>Check out my deployed portfolio: <a href="https://ladan-abdi-portfolio.netlify.app/" target="_blank">Ladan's Portfolio</a></p>
