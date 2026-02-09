@@ -10,7 +10,7 @@
 <h4>Maintainable codebase with comments</h4>
 <h4>Google Fonts for Typography</h4>
 
-<h2>Live Demo</h2>
+<h2>Live Portfolio</h2>
 <p>Check out my deployed portfolio: <a href="https://ladan-abdi-portfolio.netlify.app/" target="_blank">Ladan's Portfolio</a></p>
 
 <h2>Tech Stack</h2>
