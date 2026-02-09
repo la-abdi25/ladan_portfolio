@@ -4,7 +4,7 @@
 <h4>Designed to showcase my projects, skills, and experience</h4>
 
 <h2>Features</h2>
-<h4>Fully responsive design(mobile, tablet, desktop) using media queries</h4>
+<p>Fully responsive design(mobile, tablet, desktop) using media queries</p>
 <h4>Hamburger Menu with incorporated JavaScript event handling</h4>
 <h4>Home, About, Experience, Projects, and Contact sections</h4>
 <h4>Maintainable codebase with comments</h4>
